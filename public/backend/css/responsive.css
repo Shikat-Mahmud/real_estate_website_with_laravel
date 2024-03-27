@@ -1,0 +1,229 @@
+@media only screen and (max-width: 1199px){
+	.content-areas{
+		display: block !important;
+	}
+	.coll{
+		width: 50%;
+		float:left;
+		overflow: hidden;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	.coll1{
+		overflow: hidden;
+		width: 50%;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	.coll2{
+		width: 100%;
+	}
+	.recent_products{
+		width: 100%;
+		float:none;
+	}
+	.join_promotion{
+		margin-bottom: 20px;
+	}
+	.rec_deals{
+		justify-content: center; 
+	}
+	.timer_img{
+		width: auto;
+	}
+	.Top_customer{
+		width: 100%;
+		float:none;
+		padding: 0px 20px 20px 20px;
+	}
+	.order-volume{
+		width: 100%;
+	}
+	.logout{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1199px){
+	.rej_prod{
+		display: block;
+	}
+	.rej_pro_1{
+		float:left;
+		overflow: hidden;
+		width: 49%;
+		margin-bottom: 20px;
+	}
+	.rej_pro_2{
+		overflow: hidden;
+		width: 49%;
+		margin-bottom: 20px;
+	}
+	.rej_pro_3{
+		float:left;
+		overflow: hidden;
+		width: 49%;
+	}
+	.rej_pro_4{
+		overflow: hidden;
+		width: 49%;
+	}
+	.ppie {
+		min-height:80px;
+		height:auto; 
+	}
+}
+@media only screen and (max-width: 958px){
+	.recentt_tables{
+		float: none;
+		width: 100%;
+	}
+	.total_income{
+		width: 100%;
+	}
+	.coll{
+		float: none;
+		width: 100%;
+	}
+	.coll1{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 828px){
+	.rej_pro_1{
+		float:left;
+		overflow: hidden;
+		width: 48%;
+		margin-bottom: 20px;
+	}
+	.rej_pro_2{
+		overflow: hidden;
+		width: 48%;
+		margin-bottom: 20px;
+	}
+	.rej_pro_3{
+		float:left;
+		overflow: hidden;
+		width: 48%;
+	}
+	.rej_pro_4{
+		overflow: hidden;
+		width: 48%;
+	}
+	.picoon{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1124px){
+	.back-to{
+		display: none;
+	}
+}
+@media only screen and (max-width: 769px){
+	.ccards{
+		display: block;
+	}
+	.card-11{
+		margin-bottom: 20px;
+	}
+	.card-22{
+		margin-bottom: 20px;
+	}
+	.card-33{
+		margin-bottom: 20px;
+	}
+	
+
+.search--notification--profile {
+	    
+}
+@media only screen and (max-width: 788px){
+	.incomes, .Expensess, .Saless, .Nets{
+		display: block;
+		height: auto;
+	}
+	.rec_priis, .rece_pris, .rec_priss, .rec_pris{
+		margin-left: 0px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.main--content{
+		width: calc(100% - 270px);
+	}
+	.search{
+		display: none;
+	}
+}
+@media only screen and (max-width: 675px){
+	.rej_pro_1{
+		float:none;
+		overflow: hidden;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.rej_pro_2{
+		overflow: hidden;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.rej_pro_3{
+		float:none;
+		overflow: hidden;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.rej_pro_4{
+		overflow: hidden;
+		width: 100%;
+	}
+	.rec_title a{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 660px){
+	.timer{
+		display: block;
+	}
+	.timer_img{
+		min-height:250px;
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 622px){
+	.emtt, .emt, .emts, .emtts{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 590px){
+	.sidebar {
+		    /* transform: translateX(-100%);*/
+		transform: translateX(0%);    
+	}
+	.sidebar.active{
+		width: 75px;
+	}
+	.main--content.active{
+		width: calc(100% - 70px);
+	}
+	.rec_title a{
+		font-weight: 400;
+		font-size: 12px;
+	}
+	.header .logo h2{
+		display: none;
+	}
+}
+@media only screen and (max-width: 514px){
+	.sidebar {
+		transform: translateX(-100%);   
+	}
+	.main--content{
+		width: calc(100% - 0px);
+	}
+	.sidebar.active {
+	    width: 275px;
+	    overflow-y: scroll;
+	}
+}
+@media only screen and (max-width: 514px){
+	
+}

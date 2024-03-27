@@ -1,0 +1,28 @@
+.card-box {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.dash-card {
+    padding: 15px; 
+    margin: 10px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    text-align: center; 
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+.dcard-1 {
+    background-color: goldenrod;
+}
+
+.dcard-2 {
+    background-color: rgb(153, 122, 255);
+}
+
+.dcard-3 {
+    background-color: rgb(61, 202, 245);
+}
