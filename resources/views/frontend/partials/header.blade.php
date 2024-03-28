@@ -72,19 +72,19 @@
             @else
             @if(auth()->user()->role == 'admin')
             <a href="{{ route('admin-dashboard') }}" class="btn sign-btn">
-                @if(auth()->user()->photo)
+                @if(isset(auth()->user()->photo))
                 <img src="{{ asset('storage/' . auth()->user()->photo) }}" class="avatar" style="margin: 2px; padding: 1px; border: 2px solid #6C60FE">
                 @else
-                <img src="https://lh3.googleusercontent.com/proxy/FMdpK8RXpwmgJy-GPX7yJDHMvu_RvWqWRVf0xBdmeROkG-6z90M9XJm5RQFdglx47XvWsCzo5w" class="avatar" style="margin: 2px; padding: 1px; border: 2px solid #6C60FE">
+                <img src="{{asset('assets/img/avatar_img.png')}}" class="avatar" style="margin: 2px; padding: 1px; border: 2px solid #6C60FE">
                 @endif
                 {{ auth()->user()->name }} 
             </a>
             @else
             <a href="{{ route('user-dashboard') }}" class="btn sign-btn">
-                @if(auth()->user()->photo)
+                @if(isset(auth()->user()->photo))
                 <img src="{{ asset('storage/' . auth()->user()->photo) }}" class="avatar" style="margin: 2px; padding: 1px; border: 2px solid #6C60FE">
                 @else
-                <img src="https://lh3.googleusercontent.com/proxy/FMdpK8RXpwmgJy-GPX7yJDHMvu_RvWqWRVf0xBdmeROkG-6z90M9XJm5RQFdglx47XvWsCzo5w" class="avatar" style="margin: 2px; padding: 1px; border: 2px solid #6C60FE">
+                <img src="{{asset('assets/img/avatar_img.png')}}" class="avatar" style="margin: 2px; padding: 1px; border: 2px solid #6C60FE">
                 @endif                
                 {{ auth()->user()->name }} 
             </a>

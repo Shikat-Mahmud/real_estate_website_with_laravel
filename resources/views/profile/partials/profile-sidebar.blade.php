@@ -5,9 +5,8 @@
                 @if(auth()->user()->photo)
                 <img src="{{ asset('storage/' . $users->photo) }}"  class="rounded-circle p-1 bg-primary" style="width: 110px; height: 110px; object-fit: cover;">
                 @else
-                <img src="https://lh3.googleusercontent.com/proxy/FMdpK8RXpwmgJy-GPX7yJDHMvu_RvWqWRVf0xBdmeROkG-6z90M9XJm5RQFdglx47XvWsCzo5w"  class="rounded-circle p-1 bg-primary" style="width: 110px; height: 110px; object-fit: cover;">
+                <img src="{{asset('assets/img/avatar_img.png')}}"  class="rounded-circle p-1 bg-primary" style="width: 110px; height: 110px; object-fit: cover;">
                 @endif
-                <!-- <img src="{{ asset('storage/' . $users->photo) }}" alt="Photo" class="rounded-circle p-1 bg-primary" style="width: 110px; height: 110px; object-fit: cover;"> -->
                 <div class="mt-3">
                     <h4>{{$users->name}}</h4>
                     <p>{{$users->email}}</p>

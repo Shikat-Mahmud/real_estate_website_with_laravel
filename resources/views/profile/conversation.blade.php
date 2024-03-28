@@ -24,6 +24,10 @@
         color: #fff;
         text-align: right;
     }
+
+    .user-chat {
+        min-height: 70vh;
+    }
 </style>
 <div class="container">
     <div class="main-body">
@@ -34,7 +38,7 @@
                         Bookings 
                     </div>
                     <hr>
-                    <div class="card-body">
+                    <div class="card-body user-chat ">
                         <div class="d-flex flex-column align-items-center text-center">
                             <ul class="list-group list-group-flush" style="width: 100%">
                                 @forelse ($conversations as $item)
@@ -60,7 +64,7 @@
                         <h6>Conversations </h6>
                     </div>
                     <hr>
-                    <div id="chat" class="card-body peopleConversation align-items-center justify-content-center">
+                    <div id="chat" class="card-body peopleConversation align-items-center justify-content-center user-chat">
                         <div style="text-align:center;">
                             <i style="font-size:40px; color:blue;" class="fas fa-comments"></i>
                             <p>No Conversations</p>
