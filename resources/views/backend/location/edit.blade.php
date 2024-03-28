@@ -13,13 +13,15 @@
                     <div class="col-md-6">
                         <div class="mb-3 form-group">
                         <label for="" class="col-md-4">Name<span class="text-danger">*</span></label>
+                            <div class="col-md-12">
                                 <input type="text" name="name" value="{{ $location->name }}" class="form-control" />
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mb-3 form-group">
                         <label for="" class="col-md-4">City<span class="text-danger">*</span></label>
-                            <div class="col-md-8">
+                            <div class="col-md-12">
                                 <input type="text" name="city" value="{{ $location->city }}" class="form-control" />
                             </div>
                         </div>
@@ -28,7 +30,7 @@
                     <div class="col-md-12">
                         <div class="mb-3 form-group">
                         <label for="" class="col-md-4">Image</label>
-                            <div class="col-md-8">
+                            <div class="col-md-12">
                                 <input type="file" name="photo" class="form-control" accept="image/*" />
                                 @if($location->photo)
                                 <img src="{{ asset('storage/photos/locations/' . $location->photo) }}" alt="" style="height: 80px;"><br>
