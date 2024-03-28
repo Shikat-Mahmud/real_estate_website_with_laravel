@@ -5,7 +5,7 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" style="color: #fff; background: #dd7f2c;">
                 <div class="card-body overview" style="margin: 20px;">
                     <div class="card-box dash-card dcard-1">
                         <div>
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" style="color: #fff; background: #2865e0;">
                 <div class="card-body overview" style="margin: 20px;">
                     <div class="card-box dash-card dcard-2">
                         <div>
@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" style="color: #fff; background: #397e74;">
                 <div class="card-body overview" style="margin: 20px;">
                     <div class="card-box dash-card dcard-3">
                         <div>

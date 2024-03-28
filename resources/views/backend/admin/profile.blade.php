@@ -27,6 +27,8 @@
                         <div class="col-md-12 mb-3 text-center">
                             @if(isset($user->photo))
                             <img class="admin-photo" src="{{ asset('storage/' . $user->photo) }}" alt="Admin Photo">
+                            @else
+                            <img class="admin-photo" src="{{asset('assets/img/avatar_img.png')}}" alt="Admin Photo">
                             @endif
                         </div>
 

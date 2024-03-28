@@ -1,6 +1,6 @@
 <style>
     .avatar-img {
-        height: 30px; width: 30px; border-radius: 50%; margin: 2px; padding: 1px; border: 2px solid #ffffff; 
+        height: 35px; width: 35px; border-radius: 50%; margin: 2px; padding: 1px; border: 2px solid #ffffff; 
     }
 </style>
 
@@ -22,10 +22,10 @@
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                @if(auth()->user()->photo)
+                @if(isset(auth()->user()->photo))
                 <img src="{{ asset('storage/' . auth()->user()->photo) }}"  class="avatar-img">
                 @else
-                <img src="https://lh3.googleusercontent.com/proxy/FMdpK8RXpwmgJy-GPX7yJDHMvu_RvWqWRVf0xBdmeROkG-6z90M9XJm5RQFdglx47XvWsCzo5w" class="avatar-img">
+                <img src="{{asset('assets/img/avatar_img.png')}}" class="avatar-img">
                 @endif
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
